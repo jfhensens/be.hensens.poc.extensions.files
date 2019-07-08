@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller 
+  Uri="http://localhost:8080/be.hensens.poc.extensions.host.appinstaller" 
+  Version="1.0.20.0" 
+  xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
+  <MainBundle 
+    Name="be.hensens.poc.extensions.host" 
+    Publisher="CN=SAP Mobile Infrabel" 
+    Version="1.0.20.0" 
+    Uri="http://localhost:8080/be.hensens.poc.extensions.host_1.0.20.0_Test/be.hensens.poc.extensions.host_1.0.20.0_x64.appxbundle" />
+  <UpdateSettings>
+    <OnLaunch HoursBetweenUpdateChecks="0"/>
+    <AutomaticBackgroundTask/>
+    <ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+  </UpdateSettings>
+</AppInstaller>
